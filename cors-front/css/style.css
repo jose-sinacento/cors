@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(96, 96, 199);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#characterInfo {
+    background-color: rgb(77, 225, 77);
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+input {
+    text-align: center;
+    color: lightgray;
+}
+
+button, input {
+    border-radius: 5px;
+    border-style: none;
+}
+
+button:hover, input:hover {
+    cursor: pointer;
+}
+
+h1, label {
+    color: aqua;
+}
+
+h2, p {
+    color: slateblue;
+}
+
+img {
+    height: 300px;
+}
